@@ -224,23 +224,6 @@ Bot: Done! Added to your calendar.
 
 ---
 
-## Documentation
-
-| Document | Description |
-|----------|-------------|
-| [Platform Selection Guide](docs/platform-selection-guide.md) | Choose Modal vs Railway vs Vercel vs Lambda |
-| [Agent Architecture](docs/agent-architecture.md) | How the agent works, security model |
-| [MCP & Heartbeat Design](docs/mcp-and-heartbeat-design.md) | Integrations and scheduled tasks |
-| [Provider Integrations](docs/provider-integrations.md) | Google, GitHub, Notion setup |
-| [Onboarding Flow](docs/onboarding-flow.md) | User setup experience |
-| [Security Research](docs/openclaw-security-research.md) | Security architecture decisions |
-| [Production Implementation Guide](docs/production-implementation-guide.md) | End-to-end deploy, validation, and go-live path |
-| [Production Test Checklist](docs/test-execution-checklist.md) | Copy/paste validation steps before go-live |
-| [Operations Runbook](docs/operations-runbook.md) | Rotation, incidents, production checks |
-| [AGENTS Guide](AGENTS.md) | Agent-oriented implementation and workflow guide |
-
----
-
 ## Cost
 
 ### Platform Costs
@@ -287,7 +270,6 @@ Unlike OpenClaw's gateway (port 18789), Lite Claw has no listening ports. Commun
 - Suspicious content alerts
 - Confirmation gates as final defense
 
-See [Security Research](docs/openclaw-security-research.md) for full details.
 
 ---
 
